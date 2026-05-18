@@ -1,0 +1,26 @@
+{
+  "name": "iot",
+  "version": "1.0.0",
+  "description": "A small IoT project using ESP32 and node-red",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red -p $PORT -u ./data"
+  },
+  "dependencies": {
+    "@flowfuse/node-red-dashboard": "^1.30.2",
+    "node-red": "^4.0.0",
+    "node-red-node-mongodb": "^0.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noomde/IoT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/noomde/IoT/issues"
+  },
+  "homepage": "https://github.com/noomde/IoT#readme"
+}
