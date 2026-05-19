@@ -2,7 +2,7 @@
 - **Live Dashboard URL:** https://iot-production-d939.up.railway.app/dashboard/page1
 - **Wokwi Simulation URL:** https://wokwi.com/projects/463269245300540417
 - **Repository URL:** https://github.com/noomde/IoT
-- **Short Demo Video:** https://www.youtube.com/watch?v=er_hH-Wtb1A
+- **Short Demo Video:** https://youtu.be/PQ2PwDgEyLU (I videon så råkade charten ha på endast de senaste 10 minuterna men är löst nu)
 - **self-hosted broker report** https://github.com/noomde/IoT/blob/main/brokerReport.md
 
 ### 2) Project Overview
