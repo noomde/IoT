@@ -1,5 +1,6 @@
 ### 1) Links to reports
-**project report:** https://github.com/noomde/IoT/blob/main/report.md
+**project report:** https://github.com/noomde/IoT/blob/main/report.md 
+
 **self-hosted broker report:** https://github.com/noomde/IoT/blob/main/brokerReport.md
 
 ### 2) Project details
