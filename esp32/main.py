@@ -10,11 +10,11 @@ from umqtt.simple import MQTTClient
 WIFI_SSID = "Wokwi-GUEST"
 WIFI_PASSWORD = ""
 
-MQTT_BROKER = "your own broker"
-MQTT_PORT = "your broker port"
+MQTT_BROKER = "interchange.proxy.rlwy.net"
+MQTT_PORT = 54183
 MQTT_USER = "esp32"
 
-MQTT_PASSWORD = "your broker password"
+MQTT_PASSWORD = "your broker user password"
 STUDENT_ID = "your student id"
 
 SENSOR_TOPIC = f"lnu/iot/{STUDENT_ID}/sensor"
@@ -65,7 +65,8 @@ client = MQTTClient(
     server=MQTT_BROKER,
     port=MQTT_PORT,
     user=MQTT_USER,
-    password=MQTT_PASSWORD
+    password=MQTT_PASSWORD,
+    ssl=True
 )
 
 client.set_callback(on_message)
