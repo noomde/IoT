@@ -4,7 +4,14 @@ module.exports = {
     flowFile: "flows.json",
     functionExternalModules: true,
 
-    disableEditor: true,
+    adminAuth: {
+        type: "credentials",
+        users: [{
+            username: process.env.NODE_RED_ADMIN_USER,
+            password: process.env.NODE_RED_ADMIN_PASSWORD_HASH,
+            permissions: "*"
+        }]
+    },
     
     ui: {
         path: "/"
