@@ -10,8 +10,12 @@ from umqtt.simple import MQTTClient
 WIFI_SSID = "Wokwi-GUEST"
 WIFI_PASSWORD = ""
 
-MQTT_BROKER = "broker.emqx.io"
-STUDENT_ID = "your_student_id"
+MQTT_BROKER = "your own broker"
+MQTT_PORT = "your broker port"
+MQTT_USER = "esp32"
+
+MQTT_PASSWORD = "your broker password"
+STUDENT_ID = "your student id"
 
 SENSOR_TOPIC = f"lnu/iot/{STUDENT_ID}/sensor"
 LED_TOPIC = f"lnu/iot/{STUDENT_ID}/command/led"
@@ -57,8 +61,11 @@ def on_message(topic, msg):
 # MQTT CONNECT
 # -------------------
 client = MQTTClient(
-    client_id=STUDENT_ID,
-    server=MQTT_BROKER
+    client_id=f"esp32-{STUDENT_ID}",
+    server=MQTT_BROKER,
+    port=MQTT_PORT,
+    user=MQTT_USER,
+    password=MQTT_PASSWORD
 )
 
 client.set_callback(on_message)
