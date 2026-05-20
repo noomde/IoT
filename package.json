@@ -4,7 +4,7 @@
   "description": "A small IoT project using ESP32 and node-red",
   "main": "index.js",
   "scripts": {
-    "start": "node-red -p $PORT -u ./data"
+    "start": "node-red -p ${PORT:-1880} -u ./data"
   },
   "dependencies": {
     "@flowfuse/node-red-dashboard": "^1.30.2",
