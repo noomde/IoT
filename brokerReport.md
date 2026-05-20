@@ -2,6 +2,8 @@
 
 I am using a self-hosted EMQX broker deployed on Railway.
 
+That is also the reason to why I don't have a config file. Cause I choose to find a highly rated template for a self-hosted broker.
+
 Two separate users have been configured:
 - One user for the Wokwi ESP32 client
 - One user for the Node-RED backend
