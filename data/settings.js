@@ -13,6 +13,7 @@ module.exports = {
         }]
     },
     
+    
     ui: {
         path: "/"
     }
