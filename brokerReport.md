@@ -43,6 +43,8 @@ Even though the self-hosted broker has better controll and authentication, there
 
 I have changed the admin password to one much more secure to make sure nobody gets access to these things.
 
+One thing that makes EMQX better than a public broker is the dashboard. The dashboard allows me to have good control over the usage and should allow me to have a close grip on the users.
+
 ### below is a few pictures showing some of the security decisions:
 
 <img width="2440" height="529" alt="image" src="https://github.com/user-attachments/assets/b9b0938a-e333-40ca-9147-a82cffdb0ce1" />
