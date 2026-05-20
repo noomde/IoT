@@ -11,5 +11,6 @@
 A few descriptive pictures of the application during flow and while there is no current data for the last 30 minutes
 <img width="2533" height="1220" alt="image" src="https://github.com/user-attachments/assets/50d426e9-4ed1-4e69-af8a-acf5caa1a6c6" />
 
-<img width="2525" height="733" alt="image" src="https://github.com/user-attachments/assets/aeea0512-00d1-4125-82c9-48477495ac3e" />
+<img width="2534" height="732" alt="image" src="https://github.com/user-attachments/assets/be3568ec-793b-495b-aa6e-91d2ab7d180e" />
+
 
